@@ -1,0 +1,23 @@
+{
+  "input_channels": 1,
+  "forecast_steps": 12,
+  "num_blocks": 5,
+  "ensemble_size": 10,
+  "noisy_decoder": true,
+  "loss_class": "crps",
+  "loss_params": {
+    "temporal_lambda": 0.01
+  },
+  "masked_loss": false,
+  "optimizer_class": "<class 'torch.optim.adam.Adam'>",
+  "optimizer_params": {
+    "lr": 0.0001,
+    "fused": true
+  },
+  "lr_scheduler_class": "<class 'torch.optim.lr_scheduler.ReduceLROnPlateau'>",
+  "lr_scheduler_params": {
+    "mode": "min",
+    "factor": 0.5,
+    "patience": 10
+  }
+}
