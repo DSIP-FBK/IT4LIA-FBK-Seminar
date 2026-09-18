@@ -1,4 +1,4 @@
-# Forecasting Precipitation with AI and Radar Data
+# Open Weather Radar Data and AI Nowcasting for Italy
 
 Materials for the IT4LIA AI Factory seminar on radar-based precipitation nowcasting, held online on 2026-09-22 and 2026-09-23. See [AGENDA.md](AGENDA.md) for the full schedule.
 
