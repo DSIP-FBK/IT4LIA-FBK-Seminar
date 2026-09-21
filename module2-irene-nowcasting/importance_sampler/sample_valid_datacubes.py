@@ -173,7 +173,7 @@ def file_writer(output_queue, filename, batch_size=1000):
 # === Dataset Loading ===
 print(f"Opening Zarr dataset: {args.zarr_path}")
 try:
-    zg = xr.open_zarr(args.zarr_path, mode="r")
+    zg = xr.open_zarr(args.zarr_path)
     RR = zg["RR"]
 except Exception as e:
     print(f"Error loading Zarr dataset: {e}")
