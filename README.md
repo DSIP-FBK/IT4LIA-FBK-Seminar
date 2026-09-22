@@ -22,8 +22,8 @@ Each module is a **separate Python project** with its own `pyproject.toml`, depe
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd seminars
+git clone https://github.com/DSIP-FBK/IT4LIA-FBK-Seminar
+cd IT4LIA-FBK-Seminar
 ```
 
 ### 2. Install dependencies with uv
