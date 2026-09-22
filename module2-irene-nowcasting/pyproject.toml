@@ -37,6 +37,7 @@ dependencies = [
     "aiohttp>=3.13.3",
     "python-dotenv>=1.2.3",
     "opencv-python-headless>=5.0.0.93",
+    "cartopy>=0.25.0",
 ]
 
 [project.optional-dependencies]
