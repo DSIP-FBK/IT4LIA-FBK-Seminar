@@ -26,15 +26,15 @@ Materials: `module2-irene-nowcasting/`
 
 | Time | Segment |
 |---|---|
-| 9:00–9:15 | Recap & intro to the nowcasting problem |
-| 9:15–10:15 | IRENE model architecture and design |
-| 10:15–10:30 | Break |
-| 10:30–11:30 | Training pipelines and optimization strategies |
-| 11:30–12:00 | Performance benchmarking |
+| 9:00–9:45 | Nowcasting, and how to run IRENE (recap, the three approaches, hands-on with live data) |
+| 9:45–10:30 | PyTorch foundations & IRENE architecture |
+| 10:30–10:45 | Break |
+| 10:45–11:30 | Training pipeline & optimization |
+| 11:30–12:00 | Performance benchmarking vs STEPS |
 | 12:00–12:45 | Hands-on: inference workflow |
 | 12:45–13:00 | Wrap-up & Q&A |
 
-> Timing above is a draft split of the 4h blocks and needs confirmation — adjust segment lengths once slide/notebook content is scoped.
+> Timing above is a draft split of the 4h blocks and needs confirmation — adjust segment lengths once slide/notebook content is scoped. Module 2 was restructured on 2026-09-22 to open with a full nowcasting-and-IRENE walkthrough (using `notebooks/04_irene_live_inference.ipynb`) before the PyTorch foundations block; the closing "Hands-on: inference workflow" segment still exists but now partly overlaps it and may be trimmed once the rest of the reorg is finalized.
 
 ## Folder layout
 ```
